@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>Асанова Дарья — цифровой дизайнер</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="fixed-brand" aria-label="Портфолио">
+    <a href="#top" class="brand-line">АСАНОВА ДАРЬЯ</a>
+    <span class="brand-line">цифровой дизайнер</span>
+  </header>
+
+  <nav class="project-nav" aria-label="Навигация по проектам">
+    <a class="project-nav__item" href="#project-1" data-project="project-1">
+      <span>ПРОЕКТ1</span><i aria-hidden="true"></i>
+    </a>
+    <a class="project-nav__item" href="#project-2" data-project="project-2">
+      <span>ПРОЕКТ2</span><i aria-hidden="true"></i>
+    </a>
+    <a class="project-nav__item" href="#project-3" data-project="project-3">
+      <span>ПРОЕКТ3</span><i aria-hidden="true"></i>
+    </a>
+  </nav>
+
+  <!-- Замените href ниже на ваш настоящий Telegram, например https://t.me/username -->
+  <a class="telegram-link" href="#" target="_blank" rel="noreferrer">telegram↗</a>
+
+  <main id="top">
+    <section class="screen hero" id="hero">
+      <img class="screen__image" src="assets/hero.png" alt="" />
+      <div class="screen__shade"></div>
+      <div class="hero-title display-title" aria-label="Асанова Дарья">
+        <span>АСАНОВА</span>
+        <span>ДАРЬЯ</span>
+      </div>
+      <!-- Замените href ниже на почту / форму / Telegram для связи -->
+      <a class="contact-link" href="#">написать мне</a>
+    </section>
+
+    <section class="screen project project--one" id="project-1" data-project-section="project-1">
+      <div class="project-one__image project-one__image--left" aria-hidden="true"></div>
+      <div class="project-one__image project-one__image--right" aria-hidden="true"></div>
+      <div class="project-title display-title" aria-label="Проект один">
+        <span>ПРОЕКТ</span>
+        <span>ОДИН</span>
+      </div>
+    </section>
+
+    <section class="screen project project--two" id="project-2" data-project-section="project-2">
+      <img class="screen__image" src="assets/project-2.png" alt="" />
+      <div class="screen__shade screen__shade--soft"></div>
+      <div class="project-title display-title" aria-label="Проект четыре">
+        <span>ПРОЕКТ</span>
+        <span>ЧЕТЫРЕ</span>
+      </div>
+    </section>
+
+    <section class="screen project project--three" id="project-3" data-project-section="project-3">
+      <img class="screen__image" src="assets/project-3.png" alt="" />
+      <div class="screen__shade screen__shade--light"></div>
+      <div class="project-title display-title" aria-label="Проект три">
+        <span>ПРОЕКТ</span>
+        <span>ТРИ</span>
+      </div>
+    </section>
+
+    <footer class="site-footer">
+      <a class="footer-contact" href="#">написать мне↗</a>
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
